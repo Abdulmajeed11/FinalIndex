@@ -29,8 +29,8 @@ RemoveClient (Command 1063(Command 1063)](#1063)
 - [DynamicClientJoined,DynamicClientLeft (Command 1500)](#1500f)
 
 ### ALMOND TO MOBILE (In the Same Server commands)
-- [AlmondHello (Command 1040,Command 31)](#1040||31)]
-- [AffiliationAlmondRequest (Command 21)](#21)]
+- [AlmondHello (Command 1040,Command 31)](#1040||31)
+- [AffiliationAlmondRequest (Command 21)](#21)
 - [KeepAlive (Command 104)](#104)
 - [AlmondReset (Command 1030)](#1030)
 ----------------------------------------------------------------------------------------------
