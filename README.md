@@ -2644,7 +2644,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->validator(login)->logging(errorLog)->processor(do)->login(Mob_Login)->redisManager(getAllAlmonds)->oldRowBuilder(loginJSON)->dispatcher(dispatchResponse)->mongo-store(add)->redisManager(redisExecute)->login(GetSubscriptions)->oldRowBuilder(subscriptions)->dispatcher(dispatchResponse)
 
 <a name="1110ms"></a>
-## 15) UserProfileRequest (Command 1110)
+## 14) UserProfileRequest (Command 1110)
     Command no 
     1110- JSON format
  
@@ -2663,7 +2663,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->account-manager-json(UserProfile)->newRowBuilder(UserProfile)->dispacher(dispatchResponse)
 
 <a name="3"></a>
-## 16) Logout (Command 3)
+## 15) Logout (Command 3)
     Command no 
     3- XML format
  
@@ -2688,7 +2688,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->login(logout)->oldRowBuilder(logout)->dispacher(dispatchResponse)->mongo-store(remove)
 
 <a name="6"></a>
-## 17) Signup (Command 6)
+## 16) Signup (Command 6)
     Command no 
     6- XML format
  
@@ -2713,7 +2713,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->accountSetup(Mob_Signup)->oldRowBuilder(accountSetup)->dispacher(dispatchResponse)->mongo-store(remove)
 
 <a name="102"></a>
-## 18) CloudSanity (Command 102)
+## 17) CloudSanity (Command 102)
     Command no 
     102- XML format
  
@@ -2728,7 +2728,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->almond(sanity_check)->oldRowBuilder(dummy)->dispacher(dispatchResponse)
 
 <a name="113"></a>
-## 19) NotificationPreferenceList (Command 113)
+## 18) NotificationPreferenceList (Command 113)
     Command no 
     113- XML format
  
@@ -2747,7 +2747,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notificationPreferences(get_notification_preference_list)->oldRowBuilder(get_notification_preference_list)->dispacher(dispatchResponse)
 
 <a name="151"></a>
-## 20) AlmondModeRequest (Command 151)
+## 19) AlmondModeRequest (Command 151)
     Command no 
     151- XML format
  
@@ -2766,7 +2766,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->almond(get_almondmode)->oldRowBuilder(get_almondmode)->dispacher(dispatchResponse)
 
 <a name="281"></a>
-## 21) NotificationAddRegistration (Command 281)
+## 20) NotificationAddRegistration (Command 281)
     Command no 
     281- XML format
  
@@ -2794,7 +2794,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notification(Mobile_Notification_Registration)->oldRowBuilder(notificationAddRegistration)->dispacher(dispatchResponse)
 
 <a name="283"></a>
-## 22) NotificationDeleteRegistration (Command 283)
+## 21) NotificationDeleteRegistration (Command 283)
     Command no 
     283- XML format
  
@@ -2813,7 +2813,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notification(Mobile_Notification_Delete_Registration)->oldRowBuilder(notificationDeleteRegistration)->dispacher(dispatchResponse)
 
 <a name="804a"></a>
-## 23) Command 804 (Client)
+## 22) Command 804 (Client)
     Command no 
     804- XML format
  
@@ -2836,7 +2836,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notification(get_logs)->notificationFetcher(getLogs)->oldRowBuilder(getLogs)->dispacher(dispatchResponse)
 
 <a name="804b"></a>
-## 24) Command 804 (Device)
+## 23) Command 804 (Device)
     Command no 
     804- XML format
  
@@ -2855,7 +2855,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notification(get_logs)->notificationFetcher(getLogs)->oldRowBuilder(getLogs)->dispacher(dispatchResponse)
 
 <a name="806"></a>
-## 25) Command 806 
+## 24) Command 806 
     Command no 
     806- XML format
  
@@ -2870,7 +2870,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notificationFetcher(makeBadgeZero)->oldRowBuilder(clear_the_badge)->dispacher(dispatchResponse)
 
 <a name="800"></a>
-## 26) Command 800
+## 25) Command 800
     Command no 
     800- XML format
  
@@ -2889,7 +2889,7 @@ AddScene,SetScene,ActivateScene,DeleteScene,DeleteAllScene,UpdateDeviceIndex,Upd
     socket(packet)->validator(do)->processor(do)->notificationFetcher(getNotifications)->oldRowBuilder(get_notifications)->dispacher(dispatchResponse)
 
 <a name="1004"></a>
-## 27) SUPER_LOGIN (Command 1004) 
+## 26) SUPER_LOGIN (Command 1004) 
     Command no 
     1004- JSON format
  
